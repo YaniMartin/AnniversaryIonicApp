@@ -1,0 +1,91 @@
+{
+  "startPage":{
+    "title": "Life with You",
+    "image": "data/front.jpg",
+    "text": "A memoir of best friends",
+    "template": "templates/startPageGlass.html",
+    "controller": "StartPageCtrl"
+  },
+  "menu": {
+    "title": "&#9829; Moments &#9829;",
+    "startPageTitle": "our colors"
+  },
+  "music": {
+    "enabled": true,
+    "text": "our song",
+    "path": "/android_asset/www/data/your_song.mp3",
+    "autoplay": true
+  },
+  "galleries": [
+    {
+      "title": "Beginnings",
+      "subtitle": "soft glows",
+      "name": "beginnings",
+      "template": "templates/basic.html",
+      "avatar": "data/beginnings/4.jpg",
+      "images": [
+        {
+          "path": "data/beginnings/1.jpg",
+          "text": "From warm lantern nights..."
+        },
+        {
+          "path": "data/beginnings/2.jpg",
+          "text": "...to chilly fall days..."
+        },
+        {
+          "path": "data/beginnings/3.jpg",
+          "text": "...stairways to adventure..."
+        },
+        {
+          "path": "data/beginnings/4.jpg",
+          "text": "...and melencholy travels."
+        }
+      ]
+    },
+    {
+      "title": "Together",
+      "subtitle": "&#9829; 9.5.2009 &#9829;",
+      "name": "Wedding",
+      "url": "/wed",
+      "template": "templates/basicGlass.html",
+      "avatar": "data/Wedding/1.jpg",
+      "images": [
+        {
+          "path": "data/Wedding/1.jpg",
+          "text": "Like wildflowers we came..."
+        },
+        {
+          "path": "data/Wedding/2.jpg",
+          "text": "...and with glee we grin..."
+        },
+        {
+          "path": "data/Wedding/3.jpg",
+          "text": "...and grin."
+        }
+      ]
+    },
+    {
+      "title": "Wandering Like Seagulls",
+      "subtitle": "everywhere we go",
+      "name": "honeymoon",
+      "url": "/honeymoon",
+      "template": "templates/basicGlass.html",
+      "avatar": "data/honeymoon/1.jpg",
+      "images": [
+        {
+          "path": "data/honeymoon/1.jpg",
+          "text": "Everything we have seen..."
+        },
+        {
+          "path": "data/honeymoon/2.jpg",
+          "text": "...every fire that's warmed our toes..."
+        },
+        {
+          "path": "data/honeymoon/3.jpg",
+          "text": "...exploring the unknown..."
+        }
+        
+      ]
+    }
+  ]
+}
