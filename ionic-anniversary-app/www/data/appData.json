@@ -13,7 +13,7 @@
   "music": {
     "enabled": true,
     "text": "our song",
-    "path": "/android_asset/www/data/your_song.mp3",
+    "path": "/android_asset/www/data/Home.mp3",
     "autoplay": true
   },
   "galleries": [
@@ -21,16 +21,16 @@
       "title": "Beginnings",
       "subtitle": "soft glows",
       "name": "beginnings",
-      "template": "templates/basic.html",
+      "template": "templates/basicGlass.html",
       "avatar": "data/beginnings/4.jpg",
       "images": [
         {
           "path": "data/beginnings/1.jpg",
-          "text": "From warm lantern nights..."
+          "text": "From warm latern nights..."
         },
         {
           "path": "data/beginnings/2.jpg",
-          "text": "...to chilly fall days..."
+          "text": "...to chilly winter days..."
         },
         {
           "path": "data/beginnings/3.jpg",
@@ -38,28 +38,28 @@
         },
         {
           "path": "data/beginnings/4.jpg",
-          "text": "...and melencholy travels."
+          "text": "...and melancholy travels."
         }
       ]
     },
     {
       "title": "Together",
-      "subtitle": "&#9829; 9.5.2009 &#9829;",
-      "name": "Wedding",
+      "subtitle": "&#9829; 6.04.2013 &#9829;",
+      "name": "wedding",
       "url": "/wed",
       "template": "templates/basicGlass.html",
-      "avatar": "data/Wedding/1.jpg",
+      "avatar": "data/wedding/1.jpg",
       "images": [
         {
-          "path": "data/Wedding/1.jpg",
+          "path": "data/wedding/1.jpg",
           "text": "Like wildflowers we came..."
         },
         {
-          "path": "data/Wedding/2.jpg",
-          "text": "...and with glee we grin..."
+          "path": "data/wedding/2.jpg",
+          "text": "...and with glee with grin..."
         },
         {
-          "path": "data/Wedding/3.jpg",
+          "path": "data/wedding/3.jpg",
           "text": "...and grin."
         }
       ]
@@ -83,8 +83,15 @@
         {
           "path": "data/honeymoon/3.jpg",
           "text": "...exploring the unknown..."
+        },
+        {
+          "path": "data/honeymoon/4.jpg",
+          "text": "...stumbling on hidden bays..."
+        },
+        {
+          "path": "data/honeymoon/5.jpg",
+          "text": "...to bask in vibrant suns."
         }
-        
       ]
     }
   ]
